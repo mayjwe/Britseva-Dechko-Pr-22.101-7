@@ -7,4 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Space
+        android:layout_width="42dp"
+        android:layout_height="6dp"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
+        tools:layout_editor_absoluteY="261dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
